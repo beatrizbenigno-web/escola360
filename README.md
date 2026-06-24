@@ -268,7 +268,7 @@ O objetivo do Escola360 é ser o ecossistema digital completo da escola:
  
 O Escola360 é organizado em dois ambientes principais:
  
-#### Painel do Responsável (App Mobile e Web)
+#### Painel do Responsável (App web ou mobile)
 Interface voltada para pais e responsáveis, com acesso às informações acadêmicas do filho de forma clara e visual. O pai recebe notificações automáticas sempre que há uma nova nota, falta registrada ou comunicado publicado pela escola.
  
 #### Painel Administrativo (Web)
