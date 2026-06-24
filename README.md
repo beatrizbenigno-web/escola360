@@ -288,8 +288,10 @@ Notificações automáticas são enviadas em tempo real
 Comunicação direta entre família e escola pelo chat integrado
 ```
 
-### Entrada de dados
-Na fase inicial (MVP), os dados são inseridos manualmente pelos funcionários da escola diretamente na plataforma. Em versões futuras, a integração via API com sistemas de gestão escolar como i-Educar e SIGE automatizará esse processo.
+## Entrada de dados
+
+### Na fase inicial (MVP), os dados são inseridos manualmente pelos funcionários da escola diretamente na plataforma. Em versões futuras, a integração via API com sistemas de gestão escolar como i-Educar e SIGE automatizará esse processo.
+
 ---
 ## Perfis de Usuário
  
