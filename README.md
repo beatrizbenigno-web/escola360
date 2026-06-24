@@ -246,84 +246,18 @@ Os protótipos podem ser acessados nos links abaixo:
 
 ## Importância da Experiência do Usuário (UX)
 
-A comunicação entre escola e família ainda é um dos maiores desafios da gestão escolar brasileira. Na prática cotidiana, essa relação é marcada por:
- 
-- **Fragmentação de informações:** notas no caderno ou planilhas, faltas no diário físico, avisos em grupos de WhatsApp e reuniões presenciais, ou seja, cada informação em um lugar diferente.
-- **Falta de transparência em tempo real:** os pais frequentemente só ficam sabendo do desempenho dos filhos quando o boletim chega, muitas vezes tarde demais para intervir.
-- **Comunicação informal e sem registro:** grupos de WhatsApp são utilizados como canal oficial, mas mensagens se perdem no volume de conversas e não há comprovação de recebimento.
-- **Exclusão digital:** pais com menor familiaridade tecnológica ficam ainda mais distantes do acompanhamento escolar por não saberem usar os sistemas disponíveis.
+A Experiência do Usuário é o conjunto de percepções, emoções e reações que uma pessoa tem ao interagir com um produto digital. Devemos sempre nos perguntar "como uma pessoa se sente ao usar esse sistema?"
+Um sistema pode ter todas as informações que o usuário precisa e ainda assim falhar completamente. Isso acontece quando a interface é confusa, os botões estão no lugar errado, as cores dificultam a leitura ou o fluxo de navegação exige que o usuário adivinhe o próximo passo. E isso leva a desistência do usuário para usá-lo.
 
-O Escola360 resolve todos esses problemas centralizando a comunicação, o desempenho acadêmico e a gestão escolar em uma única plataforma intuitiva e acessível.
+Um bom design de interface mostra que a pessoa está no controle, quando o usuário abre o aplicativo e imediatamente entende onde está, o que pode fazer e como chegar onde quer.
 
-### Objetivo do Sistema
+No contexto do Escola360, esse risco é especialmente crítico. O nosso usuário principal, que é o pai ou responsável — muitas vezes não tem familiaridade com tecnologia, acessa o aplicativo pelo celular em momentos rápidos do dia e precisa encontrar a informação que busca em segundos. Se a interface não for intuitiva, ele simplesmente para de usar e o problema que a plataforma veio resolver continua existindo.
  
-O objetivo do Escola360 é ser o ecossistema digital completo da escola:
+No desenvolvimento do nosso projeto, a preocupação com o UX guiou decisões práticas desde o início: a escolha das cores com base na psicologia visual, a organização das informações mais importantes na tela inicial, a simplicidade dos ícones e a clareza das notificações. Cada uma dessas decisões tem um impacto direto em se um pai em Itapipoca vai abrir o aplicativo amanhã de manhã ou não.
  
-- **Gestores** administram turmas, publicam comunicados e acompanham indicadores institucionais.
-- **Professores** lançam notas, registram frequências e se comunicam com as famílias.
-- **Pais e responsáveis** acompanham o desempenho dos filhos em tempo real, recebem notificações e trocam mensagens com a escola.
-- **Alunos** consultam suas notas, frequências, tarefas e o calendário escolar.
-
-### Como o Sistema Funciona
- 
-O Escola360 é organizado em dois ambientes principais:
- 
-#### Painel do Responsável (App web ou mobile)
-Interface voltada para pais e responsáveis, com acesso às informações acadêmicas do filho de forma clara e visual. O pai recebe notificações automáticas sempre que há uma nova nota, falta registrada ou comunicado publicado pela escola.
- 
-#### Painel Administrativo (Web)
-Ambiente utilizado por gestores, coordenadores, secretaria e professores para alimentar e gerenciar os dados da plataforma. É aqui que notas são lançadas, comunicados são publicados, turmas são gerenciadas e relatórios são gerados.
-
-### Fluxo geral de funcionamento
- 
-```
-Escola alimenta os dados (notas, faltas, comunicados)
-        ↓
-Plataforma processa e organiza as informações
-        ↓
-Pais e alunos acessam pelo app ou portal web
-        ↓
-Notificações automáticas são enviadas em tempo real
-        ↓
-Comunicação direta entre família e escola pelo chat integrado
-```
-
-## Entrada de dados
-
-Na fase inicial (MVP), os dados são inseridos manualmente pelos funcionários da escola diretamente na plataforma. Em versões futuras, a integração via API com sistemas de gestão escolar como i-Educar e SIGE automatizará esse processo.
+E ainda mais importante, o UX tem que ser pensado no quesito de inclusão. Um design bem planejado torna a tecnologia acessível para quem mais precisa dela e é esse compromisso que orienta o desenvolvimento do Escola360.
 
 ---
-## Perfis de Usuário
- 
-| Perfil | Nível de acesso | Principais funções |
-|---|---|---|
-| **Gestor / Diretor** | Administrador | Gerencia toda a plataforma, acessa relatórios e analytics |
-| **Secretaria / Coordenação** | Intermediário | Cadastra alunos, gerencia turmas e publica comunicados |
-| **Professor** | Restrito à sua turma | Lança notas, registra frequências e se comunica com pais |
-| **Pai / Responsável** | Somente leitura + chat | Acompanha o filho, recebe notificações e envia mensagens |
-| **Aluno** | Somente leitura | Consulta notas, frequências, tarefas e calendário |
- 
----
-
-## Tecnologias Utilizadas
-### Design e Prototipação
-- **Figma** — prototipação de alta fidelidade e validação da interface com usuários reais.
-
-> O projeto encontra-se atualmente na fase de prototipação.*
----
-## Decisões Tomadas ao Longo do Desenvolvimento
-
-### 1. Foco nos pais como usuário central
-Embora a plataforma atenda múltiplos perfis, o design foi pensado prioritariamente para o pai ou responsável, o usuário com "menor familiaridade tecnológica" e o mais impactado pela falta de informação sobre a vida escolar do filho. Essa decisão guiou escolhas como interface simplificada, navegação direta e notificações claras e objetivas.
-
-### 2. Paleta de cores com base na psicologia das cores
-A identidade visual foi construída com azul (confiança e segurança), laranja (dinamismo e engajamento), verde (progresso e positividade), vermelho (urgência e alertas críticos) e branco (clareza e organização) — cores escolhidas intencionalmente para transmitir os valores da plataforma e facilitar a leitura das informações pelo usuário.
-
-### 3. MVP com cadastro manual
-Para viabilizar a validação do produto sem depender de integrações técnicas complexas, o MVP foi planejado com entrada manual de dados pelos funcionários da escola. Essa decisão reduz o tempo de desenvolvimento inicial e permite testar o produto em ambiente real antes de investir em integrações via API.
-
-### 4. Plataforma web e mobile simultâneas
-A decisão de desenvolver tanto o portal web quanto o aplicativo mobile desde o início surgiu da observação de que os diferentes perfis de usuário têm preferências distintas: pais acessam principalmente pelo celular, enquanto gestores e professores preferem o computador. Atender os dois contextos desde o MVP garante maior adoção da plataforma.
 
 ## Desenvolvedores
 
