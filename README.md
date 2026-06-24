@@ -206,7 +206,7 @@ Login
 
 ### Estruturação de Interface
 
-Nesta etapa o foco está na **organização dos elementos na tela**, sem preocupação inicial com cores, tipografia ou design visual final. 
+Nesta etapa, o foco está na **organização dos elementos na tela**, sem preocupação inicial com cores, tipografia ou design visual final. 
 O wireframe utiliza **caixas, linhas e blocos estruturais** para representar os componentes da interface.
 
 Em geral, um wireframe deve apresentar:
