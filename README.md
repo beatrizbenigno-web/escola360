@@ -93,16 +93,16 @@ Ao lançar uma nota ou registrar uma frequência, o código atualiza simultaneam
 
 Embora seja um projeto de fins didáticos, o Escola360 já representa um núcleo que pode ser expandido em várias direções:
 
-**1. Backend de um sistema escolar web ou mobile**
-Servir como camada de domínio em uma API (Flask, FastAPI ou Django), expondo endpoints para cadastro de usuários, lançamento de notas, registro de frequência e geração de relatórios.
+**1. Backend de um sistema escolar web ou mobile:**
+Servir como camada de domínio em uma API (Flask, FastAPI ou Django), expondo endpoints para cadastro de usuários e disciplinas, lançamento de notas, registro de frequência e geração de relatórios.
 
-**2. Ferramenta de acompanhamento pedagógico**
+**2. Ferramenta de acompanhamento pedagógico:**
 Permitir que professores e gestores registrem avaliações e presenças em tempo real, gerem relatórios por aluno, turma ou disciplina, e exportem dados em CSV/JSON.
 
-**3. Portal de pais e alunos**
-Alimentar um portal onde responsáveis e alunos acessam informações em tempo real — notificações de ocorrências, agendamento de reuniões, acompanhamento de atividades escolares.
+**3. Portal de pais e alunos:**
+Alimentar um portal onde responsáveis e alunos acessam informações em tempo real — notificações de ocorrências, agendamento de reuniões e acompanhamento de atividades escolares.
 
-**4. Integração com ERPs escolares**
+**4. Integração com ERPs escolares:**
 Atuar como módulo de "vida acadêmica" (notas, frequências, boletins) e fonte de dados para dashboards de desempenho e evasão escolar.
 
 ---
@@ -111,9 +111,8 @@ Atuar como módulo de "vida acadêmica" (notas, frequências, boletins) e fonte 
 
 O projeto físico do banco de dados foi desenvolvido com **PostgreSQL**, escolhido por seu suporte robusto a integridade referencial, constraints avançadas e conformidade com os padrões SQL.
 
-O **projeto físico** é a etapa final da modelagem de dados — onde diagramas e conceitos abstratos são transformados em código SQL. Nessa fase, definem-se tabelas, tipos de dados, chaves primárias e estrangeiras, índices e regras de validação. Um projeto físico bem feito é essencial para qualquer aplicação séria: quando o banco de dados é mal estruturado, o código de front-end e back-end acaba mais complexo, mais lento e repleto de soluções paliativas para compensar falhas na estrutura.
-
-O diagrama abaixo é uma representação simplificada do banco de dados criado para o Escola360. O código SQL e o diagrama lógico completo estão nos arquivos do projeto.
+**Dominar essa etapa é fundamental, principalmente para quem está aprendento a programar**. Um projeto físico bem feito é essencial para qualquer aplicação séria. Entender a lógica por trás da criação das tabelas, dos relacionamentos, das chaves, ajuda o estudante a desenvolver sistemas mais robustos, organizados e profissionais. Além disso, quando o banco de dados é mal implementado o código do programa (front-end e back-end) fica mais complexo, lento e cheio de "gambiarras" para compensar as falhas na estrutura de dados.
+O diagrama abaixo é uma representação simplificada no banco de dados criado para o Escola360. O código SQL e o diagrama lógico estão nos arquivos do projeto.
 
 ```mermaid
 ---
@@ -149,8 +148,7 @@ graph TD
 
 ## Prototipação da Interface (Wireframe)
 
-Antes do desenvolvimento do frontend, é recomendado criar wireframes — representações visuais simplificadas da interface que planejam a organização dos elementos, a navegação entre páginas e a experiência do usuário (UX), sem focar ainda em cores ou design final.
-
+Antes do desenvolvimento completo do frontend de qualquer projeto, é uma prática recomendada realizar a prototipação da interface utilizando wireframes. Um wireframe é uma representação visual simplificada da interface de um sistema, utilizada para planejar a organização dos elementos da tela, a navegação entre páginas e a experiência do usuário (UX), sem focar inicialmente em cores, tipografia ou design visual final. No projeto **Escola360**, o processo de criação do wireframe seguiu uma abordagem baseada em **Design Centrado no Usuário (DCU)**, priorizando as necessidades reais dos diferentes perfis que utilizam a plataforma.
 No Escola360, o processo de prototipação seguiu uma abordagem de **Design Centrado no Usuário (DCU)**, priorizando as necessidades reais de cada perfil da plataforma.
 
 ### Perfis de Usuário
@@ -158,9 +156,11 @@ No Escola360, o processo de prototipação seguiu uma abordagem de **Design Cent
 | Perfil        | Necessidade principal                                                                 |
 |---------------|--------------------------------------------------------------------------------------|
 | Gestor        | Visão macroscópica da instituição, com acesso a indicadores gerais e ferramentas administrativas. |
-| Professor     | Operações acadêmicas rápidas: lançamento de notas e registro de frequência.          |
+| Professor     | Operações acadêmicas rápidas: lançamento de notas, calendário, avisos e registro de frequência.          |
 | Aluno         | Consulta de informações acadêmicas: boletim, calendário e avisos.                    |
 | Responsável   | Acompanhamento do desempenho do aluno: boletim, frequência e comunicados da escola.  |
+
+#### A identificação desses perfis é essencial para orientar as decisões de design da interface.
 
 ### Funcionalidades Principais
 
@@ -173,6 +173,12 @@ No Escola360, o processo de prototipação seguiu uma abordagem de **Design Cent
 - Geração de relatórios
 
 ### Estrutura de Navegação (Sitemap)
+
+#### Antes de iniciar o desenho das telas, é importante definir **como o usuário navegará pelo sistema**. Essa estrutura é representada por um **Sitemap**, que demonstra a hierarquia de páginas e a relação entre elas. Essa etapa é essencial para garantir:
+
+- organização da informação
+- clareza de navegação
+- escalabilidade do sistema
 
 ```
 Login
