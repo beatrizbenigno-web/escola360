@@ -204,7 +204,7 @@ Login
       └── Mural de Avisos
 ```
 
-### Estruturação de Interface
+## Estruturação de Interface
 
 Nesta etapa, o foco está na **organização dos elementos na tela**, sem preocupação inicial com cores, tipografia ou design visual final. 
 O wireframe utiliza **caixas, linhas e blocos estruturais** para representar os componentes da interface.
@@ -244,7 +244,84 @@ Os protótipos podem ser acessados nos links abaixo:
 - [Wireframe no Canva](https://www.canva.com/design/DAHDIPYx7nA/XpXM37A0sk16S8uJbUUmSQ/view?utm_content=DAHDIPYx7nA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2e84121a01)
 - [Sitemap no Canva](https://www.canva.com/design/DAHDY5SmND8/7ZSYfonM0voc1M9omXmlog/view?utm_content=DAHDY5SmND8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5c3b7229cb)
 
+## Importância da Experiência do Usuário (UX)
+
+A comunicação entre escola e família ainda é um dos maiores desafios da gestão escolar brasileira. Na prática cotidiana, essa relação é marcada por:
+ 
+- **Fragmentação de informações:** notas no caderno ou planilhas, faltas no diário físico, avisos em grupos de WhatsApp e reuniões presenciais — cada informação em um lugar diferente.
+- **Falta de transparência em tempo real:** os pais frequentemente só ficam sabendo do desempenho dos filhos quando o boletim chega, muitas vezes tarde demais para intervir.
+- **Comunicação informal e sem registro:** grupos de WhatsApp são utilizados como canal oficial, mas mensagens se perdem no volume de conversas e não há comprovação de recebimento.
+- **Exclusão digital:** pais com menor familiaridade tecnológica ficam ainda mais distantes do acompanhamento escolar por não saberem usar os sistemas disponíveis.
+
+O Escola360 resolve todos esses problemas centralizando a comunicação, o desempenho acadêmico e a gestão escolar em uma única plataforma intuitiva e acessível.
+
+### Objetivo do Sistema
+ 
+O objetivo do Escola360 é ser o ecossistema digital completo da escola:
+ 
+- **Gestores** administram turmas, publicam comunicados e acompanham indicadores institucionais.
+- **Professores** lançam notas, registram frequências e se comunicam com as famílias.
+- **Pais e responsáveis** acompanham o desempenho dos filhos em tempo real, recebem notificações e trocam mensagens com a escola.
+- **Alunos** consultam suas notas, frequências, tarefas e o calendário escolar.
+
+### Como o Sistema Funciona
+ 
+O Escola360 é organizado em dois ambientes principais:
+ 
+#### Painel do Responsável (App Mobile e Web)
+Interface voltada para pais e responsáveis, com acesso às informações acadêmicas do filho de forma clara e visual. O pai recebe notificações automáticas sempre que há uma nova nota, falta registrada ou comunicado publicado pela escola.
+ 
+#### Painel Administrativo (Web)
+Ambiente utilizado por gestores, coordenadores, secretaria e professores para alimentar e gerenciar os dados da plataforma. É aqui que notas são lançadas, comunicados são publicados, turmas são gerenciadas e relatórios são gerados.
+
+### Fluxo geral de funcionamento
+ 
+```
+Escola alimenta os dados (notas, faltas, comunicados)
+        ↓
+Plataforma processa e organiza as informações
+        ↓
+Pais e alunos acessam pelo app ou portal web
+        ↓
+Notificações automáticas são enviadas em tempo real
+        ↓
+Comunicação direta entre família e escola pelo chat integrado
+```
+
+### Entrada de dados
+Na fase inicial (MVP), os dados são inseridos manualmente pelos funcionários da escola diretamente na plataforma. Em versões futuras, a integração via API com sistemas de gestão escolar como i-Educar e SIGE automatizará esse processo.
 ---
+## Perfis de Usuário
+ 
+| Perfil | Nível de acesso | Principais funções |
+|---|---|---|
+| **Gestor / Diretor** | Administrador | Gerencia toda a plataforma, acessa relatórios e analytics |
+| **Secretaria / Coordenação** | Intermediário | Cadastra alunos, gerencia turmas e publica comunicados |
+| **Professor** | Restrito à sua turma | Lança notas, registra frequências e se comunica com pais |
+| **Pai / Responsável** | Somente leitura + chat | Acompanha o filho, recebe notificações e envia mensagens |
+| **Aluno** | Somente leitura | Consulta notas, frequências, tarefas e calendário |
+ 
+---
+
+## Tecnologias Utilizadas
+### Design e Prototipação
+- **Figma** — prototipação de alta fidelidade e validação da interface com usuários reais.
+
+> O projeto encontra-se atualmente na fase de prototipação.*
+---
+## Decisões Tomadas ao Longo do Desenvolvimento
+
+### 1. Foco nos pais como usuário central
+Embora a plataforma atenda múltiplos perfis, o design foi pensado prioritariamente para o pai ou responsável, o usuário com "menor familiaridade tecnológica" e o mais impactado pela falta de informação sobre a vida escolar do filho. Essa decisão guiou escolhas como interface simplificada, navegação direta e notificações claras e objetivas.
+
+### 2. Paleta de cores com base na psicologia das cores
+A identidade visual foi construída com azul (confiança e segurança), laranja (dinamismo e engajamento), verde (progresso e positividade), vermelho (urgência e alertas críticos) e branco (clareza e organização) — cores escolhidas intencionalmente para transmitir os valores da plataforma e facilitar a leitura das informações pelo usuário.
+
+### 3. MVP com cadastro manual
+Para viabilizar a validação do produto sem depender de integrações técnicas complexas, o MVP foi planejado com entrada manual de dados pelos funcionários da escola. Essa decisão reduz o tempo de desenvolvimento inicial e permite testar o produto em ambiente real antes de investir em integrações via API.
+
+### 4. Plataforma web e mobile simultâneas
+A decisão de desenvolver tanto o portal web quanto o aplicativo mobile desde o início surgiu da observação de que os diferentes perfis de usuário têm preferências distintas: pais acessam principalmente pelo celular, enquanto gestores e professores preferem o computador. Atender os dois contextos desde o MVP garante maior adoção da plataforma.
 
 ## Desenvolvedores
 
