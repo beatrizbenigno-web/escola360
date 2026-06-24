@@ -248,7 +248,7 @@ Os protótipos podem ser acessados nos links abaixo:
 
 A comunicação entre escola e família ainda é um dos maiores desafios da gestão escolar brasileira. Na prática cotidiana, essa relação é marcada por:
  
-- **Fragmentação de informações:** notas no caderno ou planilhas, faltas no diário físico, avisos em grupos de WhatsApp e reuniões presenciais — cada informação em um lugar diferente.
+- **Fragmentação de informações:** notas no caderno ou planilhas, faltas no diário físico, avisos em grupos de WhatsApp e reuniões presenciais, ou seja, cada informação em um lugar diferente.
 - **Falta de transparência em tempo real:** os pais frequentemente só ficam sabendo do desempenho dos filhos quando o boletim chega, muitas vezes tarde demais para intervir.
 - **Comunicação informal e sem registro:** grupos de WhatsApp são utilizados como canal oficial, mas mensagens se perdem no volume de conversas e não há comprovação de recebimento.
 - **Exclusão digital:** pais com menor familiaridade tecnológica ficam ainda mais distantes do acompanhamento escolar por não saberem usar os sistemas disponíveis.
