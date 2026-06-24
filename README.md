@@ -246,7 +246,8 @@ Os protótipos podem ser acessados nos links abaixo:
 
 ## Importância da Experiência do Usuário (UX)
 
-A Experiência do Usuário é o conjunto de percepções, emoções e reações que uma pessoa tem ao interagir com um produto digital. Devemos sempre nos perguntar "como uma pessoa se sente ao usar esse sistema?"
+A Experiência do Usuário é o conjunto de percepções, emoções e reações que uma pessoa tem ao interagir com um produto digital. Devemos sempre nos perguntar "como uma pessoa se sente ao usar esse sistema?".
+
 Um sistema pode ter todas as informações que o usuário precisa e ainda assim falhar completamente. Isso acontece quando a interface é confusa, os botões estão no lugar errado, as cores dificultam a leitura ou o fluxo de navegação exige que o usuário adivinhe o próximo passo. E isso leva a desistência do usuário para usá-lo.
 
 Um bom design de interface mostra que a pessoa está no controle, quando o usuário abre o aplicativo e imediatamente entende onde está, o que pode fazer e como chegar onde quer.
