@@ -109,7 +109,7 @@ Atuar como módulo de "vida acadêmica" (notas, frequências, boletins) e fonte 
 
 ## Banco de Dados
 
-O projeto físico do banco de dados foi desenvolvido com **PostgreSQL**, escolhido por seu suporte robusto a integridade referencial, constraints avançadas e conformidade com os padrões SQL.
+O projeto físico do banco de dados foi desenvolvido com **PostgreSQL**, escolhido por seu suporte robusto, integridade referencial, constraints avançadas e conformidade com os padrões SQL.
 
 **Dominar essa etapa é fundamental, principalmente para quem está aprendento a programar**. Um projeto físico bem feito é essencial para qualquer aplicação séria. Entender a lógica por trás da criação das tabelas, dos relacionamentos, das chaves, ajuda o estudante a desenvolver sistemas mais robustos, organizados e profissionais. Além disso, quando o banco de dados é mal implementado o código do programa (front-end e back-end) fica mais complexo, lento e cheio de "gambiarras" para compensar as falhas na estrutura de dados.
 O diagrama abaixo é uma representação simplificada no banco de dados criado para o Escola360. O código SQL e o diagrama lógico estão nos arquivos do projeto.
