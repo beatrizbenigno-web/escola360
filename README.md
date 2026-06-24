@@ -149,7 +149,6 @@ graph TD
 ## Prototipação da Interface (Wireframe)
 
 Antes do desenvolvimento completo do frontend de qualquer projeto, é uma prática recomendada realizar a prototipação da interface utilizando wireframes. Um wireframe é uma representação visual simplificada da interface de um sistema, utilizada para planejar a organização dos elementos da tela, a navegação entre páginas e a experiência do usuário (UX), sem focar inicialmente em cores, tipografia ou design visual final. No projeto **Escola360**, o processo de criação do wireframe seguiu uma abordagem baseada em **Design Centrado no Usuário (DCU)**, priorizando as necessidades reais dos diferentes perfis que utilizam a plataforma.
-No Escola360, o processo de prototipação seguiu uma abordagem de **Design Centrado no Usuário (DCU)**, priorizando as necessidades reais de cada perfil da plataforma.
 
 ### Perfis de Usuário
 
