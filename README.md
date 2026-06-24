@@ -205,19 +205,32 @@ Login
       └── Mural de Avisos
 ```
 
-### Decisões de Interface
+### Estruturação de Interface
 
-O wireframe do Escola360 adotou as seguintes diretrizes estruturais:
+Nesta etapa o foco está na **organização dos elementos na tela**, sem preocupação inicial com cores, tipografia ou design visual final. 
+O wireframe utiliza **caixas, linhas e blocos estruturais** para representar os componentes da interface.
+
+Em geral, um wireframe deve apresentar:
+
+- Estrutura geral da página
+- Menus de navegação
+- Botões principais
+- Campos de formulário
+- Listas e tabelas
+- Indicadores e dashboards
+
+#### O wireframe do Escola360 adotou as seguintes diretrizes estruturais:
 
 - Dashboards com indicadores rápidos
 - Menu lateral fixo para navegação entre módulos
 - Tabelas estruturadas para lançamento de notas e registro de presença
 - Mural de avisos para comunicação entre escola, alunos e responsáveis
 
+Essas decisões ajudam a tornar o sistema **mais organizado, intuitivo e eficiente para os usuários**.
+
 ### Ferramentas Recomendadas para Wireframe
 
 Figma, Adobe XD, Balsamiq, Draw.io, Canva, Miro.
-No Escola360, foi utilizado o **Canva** pela familiaridade da equipe com a ferramenta.
 
 ### Validação do Wireframe
 
@@ -225,7 +238,7 @@ Após a criação, o wireframe deve ser validado com usuários ou stakeholders, 
 
 ### Design Centrado no Usuário (DCU)
 
-O DCU é uma metodologia que coloca o usuário final no centro das decisões de design, considerando suas necessidades, limitações e comportamentos reais. No Escola360, esses princípios contribuíram para a redução de erros humanos, melhoria da usabilidade, redução da carga cognitiva e maior eficiência operacional — com o objetivo de entregar não apenas código funcional, mas um sistema capaz de resolver problemas reais do ambiente educacional.
+O DCU é uma metodologia que coloca o usuário final no centro das decisões de design, considerando suas necessidades, limitações e comportamentos reais. No Escola360, esses princípios contribuíram para a redução de erros humanos, melhoria da usabilidade, redução da carga cognitiva e maior eficiência operacional — com o objetivo de entregar não apenas código funcional, mas um sistema capaz de resolver problemas reais do ambiente educacional, proporcionando uma experiência digital mais eficiente e acessível.
 
 Os protótipos podem ser acessados nos links abaixo:
 
