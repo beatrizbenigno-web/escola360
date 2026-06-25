@@ -252,7 +252,7 @@ Um sistema pode ter todas as informações que o usuário precisa e ainda assim 
 
 Um bom design de interface mostra que a pessoa está no controle, quando o usuário abre o aplicativo e imediatamente entende onde está, o que pode fazer e como chegar onde quer.
 
-No contexto do Escola360, esse risco é especialmente crítico. O nosso usuário principal, que é o pai ou responsável — muitas vezes não tem familiaridade com tecnologia, acessa o aplicativo pelo celular em momentos rápidos do dia e precisa encontrar a informação que busca em segundos. Se a interface não for intuitiva, ele simplesmente para de usar e o problema que a plataforma veio resolver continua existindo.
+No contexto do Escola360, esse risco é especialmente crítico. O nosso usuário principal, que é o pai ou responsável, muitas vezes não tem familiaridade com tecnologia, acessa o aplicativo pelo celular em momentos rápidos do dia e precisa encontrar a informação que busca em segundos. Se a interface não for intuitiva, ele simplesmente para de usar e o problema que a plataforma veio resolver continua existindo.
  
 No desenvolvimento do nosso projeto, a preocupação com o UX guiou decisões práticas desde o início: a escolha das cores com base na psicologia visual, a organização das informações mais importantes na tela inicial, a simplicidade dos ícones e a clareza das notificações. Cada uma dessas decisões tem um impacto direto em se um pai em Itapipoca vai abrir o aplicativo amanhã de manhã ou não.
  
