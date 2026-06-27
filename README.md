@@ -287,7 +287,7 @@ Um dos aspectos mais relevantes da arquitetura é sua influência direta sobre o
 | Manutenibilidade  | Em um sistema bem projetado, alterações em uma regra de negócio não exigem modificações extensas em outros módulos. |
 | Evolução          | Uma boa arquitetura protege as regras de negócio das mudanças tecnológicas, evitando reescritas completas. |
  
-### Em suma, a qualidade de um projeto de software está diretamente relacionada à qualidade de sua arquitetura. É ela que determina se o software terá uma vida útil longa e sustentável — ou se se tornará um sistema legado de difícil manutenção. Mais do que uma etapa do desenvolvimento, a arquitetura é o principal instrumento para gerenciar a complexidade inerente aos sistemas modernos.
+### Concluindo, a qualidade de um projeto de software está diretamente relacionada à qualidade de sua arquitetura. É ela que determina se o software terá uma vida útil longa e sustentável ou então, se tornará um sistema legado de difícil manutenção. 
 ---
 
 ## Desenvolvedores
