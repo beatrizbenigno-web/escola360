@@ -258,6 +258,36 @@ No desenvolvimento do nosso projeto, a preocupação com o UX guiou decisões pr
  
 E ainda mais importante, o UX tem que ser pensado no quesito de inclusão. Um design bem planejado torna a tecnologia acessível para quem mais precisa dela e é esse compromisso que orienta o desenvolvimento do Escola360.
 
+### Protótipo de Alta Fidelidade (Figma)
+ 
+Após a etapa de wireframe, o projeto Escola360 evoluiu para um protótipo de alta fidelidade, desenvolvido no Figma. Diferente do wireframe, que tem foco estrutural, o protótipo de alta fidelidade representa a interface de forma mais próxima ao produto final, incluindo identidade visual, paleta de cores, tipografia, componentes interativos, organização visual dos elementos, experiência de navegação, responsividade e usabilidade.
+ 
+- [Protótipo no Figma](https://www.figma.com/site/Emqrc76z13FP6LB8lXMvCq/Escola360?node-id=0-1&t=YLUsID5bcvFmgdKQ-1)
+---
+ 
+## Arquitetura de Software
+ 
+A arquitetura de software pode ser compreendida como a espinha dorsal que estrutura um sistema. Ela define não apenas seus componentes, mas também as relações entre eles e os princípios que governam sua evolução. Assim como um edifício precisa de um projeto estrutural, um sistema de software necessita de um planejamento arquitetônico para garantir seu funcionamento adequado e eficiente.
+ 
+### Por que a Arquitetura é Importante?
+ 
+A arquitetura permite a **modularização do sistema**, dividindo-o em partes colaborativas — o que possibilita o desenvolvimento paralelo entre equipes e reduz a sobrecarga cognitiva dos desenvolvedores. Ela também atua como um **artefato de comunicação** entre arquitetos, desenvolvedores, gerentes e clientes, alinhando expectativas e orientando decisões técnicas e de negócio.
+ 
+Além disso, as decisões arquiteturais determinam, ainda antes da implementação, as tecnologias que poderão ser utilizadas, como ocorrerá o fluxo de dados entre os componentes e quais trade-offs serão aceitos — como o equilíbrio entre desempenho, escalabilidade e complexidade.
+ 
+### Influência nos Atributos de Qualidade
+ 
+Um dos aspectos mais relevantes da arquitetura é sua influência direta sobre os atributos de qualidade, que definem **como** o sistema se comporta:
+ 
+| Atributo          | Impacto da Arquitetura                                                                                     |
+|-------------------|------------------------------------------------------------------------------------------------------------|
+| Escalabilidade    | A forma como o sistema é particionado determina sua capacidade de crescimento.                             |
+| Segurança         | O isolamento de dados sensíveis e a definição de fronteiras de confiança reduzem a superfície de ataque.   |
+| Desempenho        | O arranjo dos componentes e os fluxos de comunicação impactam diretamente a velocidade do sistema.         |
+| Manutenibilidade  | Em um sistema bem projetado, alterações em uma regra de negócio não exigem modificações extensas em outros módulos. |
+| Evolução          | Uma boa arquitetura protege as regras de negócio das mudanças tecnológicas, evitando reescritas completas. |
+ 
+Em suma, a qualidade de um projeto de software está diretamente relacionada à qualidade de sua arquitetura. É ela que determina se o software terá uma vida útil longa e sustentável — ou se se tornará um sistema legado de difícil manutenção. Mais do que uma etapa do desenvolvimento, a arquitetura é o principal instrumento para gerenciar a complexidade inerente aos sistemas modernos.
 ---
 
 ## Desenvolvedores
